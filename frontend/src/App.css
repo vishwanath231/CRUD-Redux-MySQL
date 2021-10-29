@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContainer{
+    min-height: 80vh;
+}
+.form{
+    width: 100%;
+    padding:0 1rem;
+}
+
+.tableContainer{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+
+@media(min-width:768px){
+    .form{
+        width: 400px;
+    }
+}
+
